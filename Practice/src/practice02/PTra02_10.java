@@ -22,5 +22,16 @@ public class PTra02_10 {
 		 * ※ プログラムは何行書いても良いです
 		 */
 
+		
+		int a=moneyInHand;
+		int b=coffee;
+		int c=snack;
+		
+		double Z=(a-(b*2+c)*1.08);
+		
+		int age =(int)Z;
+		
+		System.out.println(age);
+		
 	}
 }
