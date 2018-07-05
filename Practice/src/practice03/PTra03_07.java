@@ -32,5 +32,12 @@ public class PTra03_07 {
 		 */
 
 
-	}
+	
+			if(num==1){System.out.println("選択したのは"+1+"です");}
+			else if(num==2){System.out.println("選択したのは"+2+"です");}
+			else if(num==3){System.out.println("選択したのは"+3+"です");}
+			else if(num==4){System.out.println("選択したのは"+4+"です");}
+			else if(num==5){System.out.println("選択したのは"+5+"です");}
+			else {System.out.println("選択したのは、1～5以外です");}
+		}
 }
